@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sadra | Backend Developer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="bg-number">
+01
+</div>
+
+<section class="hero">
+
+<div class="content">
+
+<span class="tag">
+Python Developer
+</span>
+
+<h1>
+Sadra.
+</h1>
+
+<h2>
+Invisible Systems.
+Visible Results.
+</h2>
+
+<h3>
+I'm a <span id="typing">Backend Developer</span>
+</h3>
+
+<p>
+I build scalable backend systems, automate repetitive workflows,
+and create reliable software solutions using Python and modern technologies.
+</p>
+
+<div class="buttons">
+
+<a
+href="https://github.com/i3sadra"
+target="_blank"
+class="btn primary">
+View Projects
+</a>
+
+<button
+id="openModal"
+class="btn secondary">
+Contact Me
+</button>
+
+</div>
+
+<div class="socials">
+
+<a
+href="https://github.com/i3sadra"
+target="_blank">
+GitHub
+</a>
+
+<a
+href="https://t.me/i3sadra"
+target="_blank">
+Telegram
+</a>
+
+</div>
+
+</div>
+
+<div class="image-container">
+
+<div class="glow"></div>
+
+<div class="image-box">
+
+<img
+src="profile.jpg"
+alt="Sadra">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Modal -->
+
+<div id="contactModal" class="modal">
+
+<div class="modal-content">
+
+<button id="closeModal" class="close-btn">
+×
+</button>
+
+<h2 class="modal-title">
+Contact Me
+</h2>
+
+<div class="contact-card">
+
+<div>
+
+<h4>Telegram</h4>
+
+<p id="telegramText">
+@i3sadra
+</p>
+
+</div>
+
+<div class="contact-actions">
+
+<button
+onclick="copyTelegram()"
+class="small-btn">
+Copy
+</button>
+
+<a
+href="https://t.me/i3sadra"
+target="_blank"
+class="small-btn">
+Open
+</a>
+
+</div>
+
+</div>
+
+<div class="contact-card">
+
+<div>
+
+<h4>Phone Number</h4>
+
+<p id="phoneText">
++98 930 *** 2877
+</p>
+
+</div>
+
+<div class="contact-actions">
+
+<button
+onclick="showPhone()"
+class="small-btn">
+Show
+</button>
+
+<button
+onclick="copyPhone()"
+class="small-btn">
+Copy
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
